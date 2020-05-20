@@ -314,10 +314,11 @@ class:center,middle
 
 ---
 
-
+exclude:true
 class:center,middle
 # 5 MIN BREAK
 [![img-center-40](https://imgs.xkcd.com/comics/data.png)](https://xkcd.com/1429/)
+
 ---
 
 class:center, middle
@@ -331,6 +332,7 @@ Task to participants: We're going to choose one of the datasets you found and go
 Outcome: Participants are familiar with how to filter and download data from the example open data portal
 
 Format: Facilitated guided task and group discussion
+
 ---
 
 exclude:true
@@ -348,29 +350,22 @@ exclude:true
 
 > “Analysis is simply the pursuit of understanding, usually through detailed inspection or comparison”
 
-## - [Carter Hewgley](https://twitter.com/CarterHewgley), (Former) Director of Analytics, [Center for Government Excellence](https://govex.jhu.edu/)
+## - [Carter Hewgley](https://www.linkedin.com/in/carterhewgley)
+
 
 ---
 
+exclude:true
 # Your Turn
---
-
 + Select a dataset of your own or continue working with this dataset
---
-
 + Find a story in the data that you want to share (should be interesting to you)
---
-
 + Be prepared to share your story with the group
---
-
 + I'm here to help
---
-
 + Have fun
 
 ---
 
+exclude:true
 class:center,middle
 # Presentations
 
@@ -388,7 +383,7 @@ class:center,middle
 + What is Open Data
 --
 
-+ Some DFW Open Data Portals
++ Demonstrated an Open Data Portal
 --
 
 + What else?
@@ -417,10 +412,7 @@ class: center,middle
 
 ---
 
-# Some Things I've Done with Open Data
---
-
-+ [UN Comtrade Visualization](http://richarddunks.github.io/)
+# What I've Done with Open Data
 --
 
 + [Rudin Center Job Access](http://www.datapolitan.com/job_access/)
@@ -452,9 +444,6 @@ class: center,middle
 --
 
 + [OpenRefine](http://openrefine.org/) - A powerful tool for working with messy data
---
-
-+ [Datapolitan Training Classes](http://training.datapolitan.com)
 
 ---
 
@@ -509,6 +498,7 @@ class:middle,center
 
 ---
 
+exclude:true 
 class:center,middle
 # Feedback
 ## [Please take a moment to let us know what you think](https://docs.google.com/forms/d/e/1FAIpQLSesE1EWZw55FwS5-rPwhk4ETp3XoUuiniy36Jj1edhE8ZyG2g/viewform?usp=sf_link)
