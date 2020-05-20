@@ -37,7 +37,7 @@ class: center,middle
 
 - - -
 
-## Instructor: Richard Dunks
+## Presenter: Richard Dunks
 
 ##### &nbsp;
 
