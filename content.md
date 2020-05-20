@@ -41,9 +41,9 @@ class: center,middle
 
 ##### &nbsp;
 
-### Follow along at: 
+### Follow along at: https://bit.ly/seeing-city-in-data
 
-#### See the code at: 
+#### See the code at: https://bit.ly/seeing-city-in-data-code
 
 
 <p class="license-text"><strong><strong>Seeing Your City in Data: An Introduction to Open Data</strong></strong> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
@@ -108,12 +108,14 @@ exclude:true
 ---
 
 class:center,middle
-# Exploring the [NYC Open Data Portal](https://opendata.cityofnewyork.us/)
-![img-center-100](images/nyc_portal.png)
+# [The NYC Open Data Portal](https://opendata.cityofnewyork.us/)
 
---- 
+[![img-center-75](images/nyc_portal.png)](https://opendata.cityofnewyork.us/)
 
-exclude: true
+---
+
+exclude:true
+
 # Some DFW Open Data Portals
 ![img-right-45](images/yourturn1.png)
 + <a href="http://data-arlingtontx.opendata.arcgis.com/" target="_blank">City of Arlington</a>
@@ -134,7 +136,7 @@ exclude: true
 
 class:center,middle
 # What did you think about this experience?
-# How would you now define "open data"?
+# How would you define "open data"?
 
 ---
 
