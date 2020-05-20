@@ -1,0 +1,670 @@
+layout:true
+
+<div class="header">
+  
+  <p class="header-text">Seeing Your City in Data</p>
+</div>
+<div class="footer">
+  <p class="footer-text">
+    <img src="images/datapolitan-logo-01.svg" class="logo_new">
+    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
+      <img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+      </p>
+</div>
+
+<!-- <div class="header" style="display:block; text-align: left; color:gray; font-size:1em; position: fixed; top: 0px; left: 0px; height: 30px;vertical-align:middle;margin:7px 0 0 0;width:100%;background: #fcfcfc;
+background: -moz-linear-gradient(top, #fcfcfc 0%, #d1d1d1 100%); 
+background: -webkit-linear-gradient(top, #fcfcfc 0%,#d1d1d1 100%);
+background: linear-gradient(to bottom, #fcfcfc 0%,#d1d1d1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#d1d1d1',GradientType=0 );">
+  <img src="images/datapolitan_transparent_small.png" style="position: fixed;top: 2px; left: 5px; width: 14%;">
+  <p style="display:block;text-align:left;color:gray;font-size:1em; position: fixed; top: 0px; left: 155px; height: 30px;vertical-align:middle;margin:7px 0 0 0; ">Seeing Dallas in Data: An Introduction to Open Data in DFW</p>
+</div>
+<div class="footer" style="display:block;color:gray;position:fixed;bottom: 0px;left:0px;height:30px;vertical-align:middle;margin:0 0 0 0;width:100%;background: #fcfcfc;background: -moz-linear-gradient(top, #fcfcfc 0%, #d1d1d1 100%);background: -webkit-linear-gradient(top, #fcfcfc 0%,#d1d1d1 100%);background: linear-gradient(to bottom, #fcfcfc 0%,#d1d1d1 100%);sfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#d1d1d1',GradientType=0 );">
+  <p class="footer">
+    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Seeing Dallas in Data: An Introduction to Open Datain DFW</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+  </p>
+
+</div> -->
+
+--
+
+class: center,middle
+
+![img-center-50](images/datapolitan-logo-01.svg)
+
+# Seeing Your City in Data:<br>An Introduction to Open Data
+
+- - -
+
+## Instructor: Richard Dunks
+
+##### &nbsp;
+
+### Follow along at: 
+
+#### See the code at: 
+
+
+<p class="license-text"><strong><strong>Seeing Your City in Data: An Introduction to Open Data</strong></strong> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img style="border-width:0;width:8%" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+
+---
+
+class:center,middle
+# Welcome!
+
+---
+
+exclude:true
+# A Few Ground Rules
++ Step up, step back
++ Be curious and ask questions!
++ Assume noble regard and positive intent
++ Respect multiple perspectives 
++ Listen deeply
++ Be present (phone, email, social media, etc.)
+
+---
+exclude:true
+# Introduce Yourself to Your Neighbor
++ Who are you?
++ What brings you here today?
++ Tell us about when a statistic surprised you
+
+---
+
+# Goals for today
+--
+
++ Practice working with open data
+--
+
++ Provide some background on open data
+--
+
++ Discuss the main elements of open data
+--
+
++ Show some meaningful uses of open data
+
+---
+exclude:true
+
+# The Value of Data
++ Data tells a story about something that's happened
++ Can describe what happened directly or indirectly
+
+![img-center-100](images/311data.png)
+
+---
+
+# So Let's Work with Some Open Data
+--
+
+![img-center-100](images/excited.gif)
+
+---
+
+class:center,middle
+# Exploring the [NYC Open Data Portal](https://opendata.cityofnewyork.us/)
+![img-center-100](images/nyc_portal.png)
+
+--- 
+
+exclude: true
+# Some DFW Open Data Portals
+![img-right-45](images/yourturn1.png)
++ <a href="http://data-arlingtontx.opendata.arcgis.com/" target="_blank">City of Arlington</a>
++ <a href="https://www.dallasopendata.com/" target="_blank">City of Dallas</a>
++ <a href="http://data.cityofdenton.com/" target="_blank">City of Denton</a>
++ <a href="https://data.fortworthtexas.gov/" target="_blank">City of Fort Worth</a>
++ <a href="http://data-garland.opendata.arcgis.com/" target="_blank">City of Garland</a>
++ <a href="http://data-cityofirving.opendata.arcgis.com/" target="_blank">City of Irving</a>
++ <a href="http://mckinneygis-mck.opendata.arcgis.com/" target="_blank">City of McKinney</a>
++ <a href="http://opendata-richardson.opendata.arcgis.com/" target="_blank">City of Richardson</a>
++ <a href="https://data.texas.gov/" target="_blank">State of Texas</a>
++ <a href="http://data-nctcoggis.opendata.arcgis.com/" target="_blank">North Central Texas Council of Governments</a>
+
+???
++ [Denton County Transportation Authority](https://dcta.net/resources/open-data)
+
+---
+
+class:center,middle
+# What did you think about this experience?
+# How would you now define "open data"?
+
+---
+
+name:open-data
+# Definition of Open Data
+--
+
+> Open data is data that can be freely used, shared and built-on by anyone, anywhere, for any purpose
+
+## - [Open Knowledge International](http://blog.okfn.org/2013/10/03/defining-open-data/)
+
+---
+
+# Key Features of Open Data
+--
+
++ Availability and access
+--
+
++ Reuse and redistribution
+--
+
++ Universal participation
+
+---
+
+# Benefits of Open Data
+--
+
++ Transparency
+--
+
+![img-center-60](images/iquantny_fireHydrant.png)
+
+---
+
+# Benefits of Open Data
++ Transparency
++ Releasing social and commercial value
+
+--
+
+![img-center-60](images/embark-ios.jpg)
+---
+
+# Benefits of Open Data
++ Transparency
++ Releasing social and commercial value
+
+![img](images/solarlist.jpg)
+---
+
+# Benefits of Open Data
++ Transparency
++ Releasing social and commercial value
+
+![img-center-60](images/healthy_out.jpg)
+---
+
+# Benefits of Open Data
++ Transparency
++ Releasing social and commercial value
+
+![img-center-30](images/childcaredesk.png)
+
+---
+
+# Benefits of Open Data
++ Transparency
++ Releasing social and commercial value
++ Participation and engagement
+--
+
+
+![img-center-100](images/voting_information_project.png)
+
+---
+exclude:true
+# Keeping NYC Accountable on Parking Tickets
+
+![img-center-100](images/nyc_parking_ticket.jpg)
+.caption[Image Credit: Parking Violator by [Atomische * Tom Giebel](https://www.flickr.com/photos/atomische/2299948817/), [CC BY-NC-ND 2.0 ](https://creativecommons.org/licenses/by-nc-nd/2.0/)]
+
+<!-- .caption[Image Credit: Charleston Parking Ticket by [Charleston's The Digitel](https://www.flickr.com/photos/29456235@N04/5396359471), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)] -->
+
+Source: http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new
+
+---
+
+exclude: true
+# New Yorkers Save Millions In Parking Tickets
+
+![img-center-70](images/sidewalk-parking.jpg)
+.caption[Image Credit: [Ken Lund](https://www.flickr.com/photos/kenlund/7236966946), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)]
+
+[Learn more](http://iquantny.tumblr.com/post/144197004989/the-nypd-was-systematically-ticketing-legally)
+
+---
+
+# Open Data Concerns
+--
+
++ Privacy ([PII](https://en.wikipedia.org/wiki/Personally_identifiable_information) and [the Mosaic Effect](https://gcn.com/articles/2014/05/14/fose-mosaic-effect.aspx))
+--
+
++ Accuracy
+--
+
++ Security
+
+---
+
+
+class:center,middle
+# 5 MIN BREAK
+[![img-center-40](https://imgs.xkcd.com/comics/data.png)](https://xkcd.com/1429/)
+---
+
+class:center, middle
+# Let's Pick One of the Datasets and Explore It
+
+???
+Activity: Facilitator guides participants through an example exercise in filtering and downloading a dataset from an open data portal
+
+Task to participants: We're going to choose one of the datasets you found and go through the process of filtering and downloading the data. We'll use this as an example of how to get data out of a portal. Later, I'm going to ask you to find your own dataset and do the same thing.
+
+Outcome: Participants are familiar with how to filter and download data from the example open data portal
+
+Format: Facilitated guided task and group discussion
+---
+
+exclude:true
+# 5 Data Analytics Tasks
+1. Filtering
+2. Sorting
+3. Aggregating (PivotTable)
+4. Transforming
+5. Visualizing
+
+---
+
+# What is Analysis?
+--
+
+> “Analysis is simply the pursuit of understanding, usually through detailed inspection or comparison”
+
+## - [Carter Hewgley](https://twitter.com/CarterHewgley), (Former) Director of Analytics, [Center for Government Excellence](https://govex.jhu.edu/)
+
+---
+
+# Your Turn
+--
+
++ Select a dataset of your own or continue working with this dataset
+--
+
++ Find a story in the data that you want to share (should be interesting to you)
+--
+
++ Be prepared to share your story with the group
+--
+
++ I'm here to help
+--
+
++ Have fun
+
+---
+
+class:center,middle
+# Presentations
+
+---
+
+class:center,middle
+# Wrap-up
+
+
+---
+
+# What We've Covered
+--
+
++ What is Open Data
+--
+
++ Some DFW Open Data Portals
+--
+
++ What else?
+
+---
+
+class: center,middle
+
+# What can be done with open data?
+
+---
+
+# Examples
+--
+
++ [Living Lots NYC (formerly 596 Acres)](http://livinglotsnyc.org/)
+--
+
++ [Twitter NYC: A Multilingual City](http://ny.spatial.ly)
+--
+
++ [NYC Taxis: A Day in the Life](http://chriswhong.github.io/nyctaxi/)
+--
+
++ [theMap.io](https://themap.io/) - Robert Mundinger
+
+---
+
+# Some Things I've Done with Open Data
+--
+
++ [UN Comtrade Visualization](http://richarddunks.github.io/)
+--
+
++ [Rudin Center Job Access](http://www.datapolitan.com/job_access/)
+--
+
++ [Subway Transit Sheds in NYC](http://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map)
+--
+
++ [MTA Subway Station Status](http://www.datapolitan.com/mta_station_repair_status/)
+--
+
++ [Citibike Dock Status Twitter Bot](https://twitter.com/CitiBikedocks)
+
+---
+
+# Resources
+--
+
++ [Open Data Handbook](http://opendatahandbook.org/)
+--
+
++ [State of the Union of Open Data](https://www.datafoundation.org/the-state-of-the-union-of-open-data-ed-3)
+--
+
++ [Ancient Origins of Open Access Law](https://opengovdata.io/2014/ancient-origins-open-access-to-law/) by [Joshua Tauberer](https://razor.occams.info/)
+--
+
++ [A Brief History of Open Data](http://parisinnovationreview.com/articles-en/a-brief-history-of-open-data) by [Simon Chignard](https://donneesouvertes.info/) in the Paris Innovation Review
+--
+
++ [OpenRefine](http://openrefine.org/) - A powerful tool for working with messy data
+--
+
++ [Datapolitan Training Classes](http://training.datapolitan.com)
+
+---
+
+# Open Data Portal Vendors
+--
+
++ [Socrata](https://socrata.com/)
+--
+
++ [OpenGov](https://opengov.com/products/open-data)
+--
+
++ [ESRI](https://www.esri.com/en-us/arcgis/products/arcgis-open-data)
+--
+
++ [OpenDataSoft](https://www.opendatasoft.com/)
+--
+
++ [Datopian](https://datopian.com/)
+
+---
+
+# Final Thoughts
+--
+
++ Data can tell a story, but doesn't speak for itself
+--
+
++ Some data is better than no data, but good data is better than bad data
+--
+
++ [PDFs are where data goes to die](https://twitter.com/cshirky/status/1061010907)
+
+
+
+---
+
+class:middle,center
+# Thank You!
+
+<!-- ## Especially [GoodWork](https://goodwork.co/)! -->
+
+---
+
+# Contact Information
++ [Email me](mailto:richard[at]datapolitan[dot]com)
++ Check out [my website](http://wwww.datapolitan.com)
++ Connect on [Twitter](https://twitter.com/Datapolitan)
++ Connect on [LinkedIn](https://www.linkedin.com/in/richarddunks/)
++ Follow us on [Instagram](https://www.instagram.com/datapolitan/)
++ Follow us on [Eventbrite](https://www.eventbrite.com/o/datapolitan-18675558166) to learn about workshops
+
+---
+
+class:center,middle
+# Feedback
+## [Please take a moment to let us know what you think](https://docs.google.com/forms/d/e/1FAIpQLSesE1EWZw55FwS5-rPwhk4ETp3XoUuiniy36Jj1edhE8ZyG2g/viewform?usp=sf_link)
+
+---
+exclude:true
+# Application Program Interface (API)
+![img-center-100](images/api.png)
+
+[Credit: Zapier "An Introduction to APIs"](https://zapier.com/learn/apis/) 
+---
+exclude:true
+
+# Application Program Interface (API)
+![img](images/api_response_trim.png)
+
+---
+exclude:true
+
+# Web Scraping
+![img-center-100](images/web-scraper.png)
+
+[Introduction to web scraping by Thomas Levine](http://thomaslevine.com/dada/web-sites-to-data-tables/)
+---
+exclude:true
+
+# Web Scraping
+![img-center-100](images/databox.jpg)
+
+[Web Scraping with OpenRefine video from Eric Brelsford](http://www.youtube.com/watch?v=KQlCTo0Q71Q)
+
+---
+exclude:true
+
+class:middle,center
+
+# If it's online, you can get the data
+## &nbsp;
+
+---
+exclude:true
+
+class:middle,center
+
+# If it's online, you can get the data
+## Trust me
+
+---
+exclude:true
+
+class:middle,center
+![img-center-100](images/data_liberation_sticker.jpg)
+
+Source: http://arstechnica.com/tech-policy/2010/03/why-google-makes-it-easy-to-leave-google/
+
+---
+exclude:true
+class:center,middle
+# Concerns with Open Data
+
+---
+exclude:true
+
+# Reliability
++ Veracity of source
++ Currency of data
+
+---
+exclude:true
+
+# Privacy
++ Personally identifiable information (PII)
+![img-center-60](images/mugshot.png)
+
+https://www.wired.com/2013/07/mugshot-removal-extortion/
+
+---
+exclude:true
+
+# Privacy
++ Personally identifiable information (PII)
+
+![img-center-70](images/gawker.png)
+http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546 
+
+---
+exclude:true
+
+# Privacy
++ Personally identifiable information (PII)
+
+![img-center-90](images/cab_muslims.png)
+
+http://www.theiii.org/index.php/997/using-nyc-taxi-data-to-identify-muslim-taxi-drivers/ 
+
+---
+exclude:true
+
+# Privacy
++ Personally identifiable information (PII)
++ Mosaic Effect
+
+---
+exclude:true
+
+# Confidentiality
++ Proprietary information
++ Trade secrets
++ Government procurement information
+
+---
+exclude:true
+
+# Security
++ Identify sensitive infrastructure
+
+
+![img-center-80](images/open_sewer_atlas.png)
+http://openseweratlas.tumblr.com/map
+
+---
+exclude:true
+
+# Security
++ Identify sensitive infrastructure
++ Describe methods and procedures
+
+---
+exclude:true
+# When Good Data Goes Bad
+
+![img-center-80](images/nyctaxi.jpeg)
+
+.caption[Image Credit: Kenny Louie, [CC BY 2.0](http://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ANYC_TAXI_(7038011669).jpg)]
+
+[Gawker matches Taxi and Limousine Data with Paparazzi Photos](http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546)
+
+---
+exclude:true
+class:center,middle
+# Quick History of Open Data
+
+---
+exclude:true
+# Why do we publish laws?
+[![img-right](images/massachusetts_laws.jpg)](https://openlibrary.org/books/OL6574549M/The_colonial_laws_of_Massachusetts)
+
+[![img-left](images/peking-gazette.png)](http://bs.dayabook.com/the-peking-gazette-for-1873)
+
+<a title="Asb at the German language Wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AGortys_law_inscription.jpg" target="_blank"><img alt="img-left-bottom" src="images/greek_law.jpg"/></a>
+
+---
+exclude:true
+class:center,middle
+# What good are laws if we don't know how they're implemented?
+## &nbsp;
+
+---
+exclude:true
+class:center,middle
+# What good are laws if we don't know how they're implemented?
+## Which is what data tells us
+
+---
+exclude:true
+class:center,middle
+![img](images/iquantny_fireHydrant.png)
+Source: [Meet the Fire Hydrant that Unfairly Nets NYC $25,000 a Year](http://iquantny.tumblr.com/post/83696310037/meet-the-fire-hydrant-that-unfairly-nets-nyc)
+
+<!-- -
+class:center,middle
+
+# Modern History of Open Data
+![img-center-100](images/od_timeline.png)
+
+Source: http://fcw.com/articles/2014/06/09/exec-tech-brief-history-of-open-data.aspx?admgarea=TC_ExecTech
+ -->
+---
+exclude:true
+# Contributors to the Open Data Movement
++ Open science
++ Open-source software
+<!-- 
+class:center,middle
+![img-center-100](images/the-open-data-movement.jpg)
+<p>Source: <a target='_blank' href='http://www.paulvanslembrouck.com?utm_source=visually_embed'>ptvan</a></p>
+ -->
+---
+exclude:true
+class:center,middle
+# Open Data Sources
+## &nbsp;
+
+---
+exclude:true
+
+class:center,middle
+# Open Data Sources
+## In order of usability
+
+---
+exclude:true
+
+# Open Data Portals
+![img-center-100](images/nycopen_data.png)
+
+---
+exclude:true
+class:center,middle
+# Link to NYC Open Data Portal for Exercise
+## <a href="https://opendata.cityofnewyork.us/" target="_blank">NYC Open Data Portal</a>
+
+---
+exclude:true
+# Data for Exercise
+![img-center-100](images/od_exercise.png)
+
+#### [Click to download if you have problems](data/20160101_20160331_311NoiseContains.csv)
+
+---
+
+exclude:true
+# Exercise
+## Looking at the type, frequency, and location of noise-related service requests:
++ Find one thing that you expected in the data
++ Find one thing you found surprising in the data
