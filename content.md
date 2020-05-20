@@ -156,10 +156,31 @@ name:open-data
 + Availability and access
 --
 
+
+[![img-center-75](images/portal.png)](https://www.data.gov/)
+.caption[[Data.gov](https://www.data.gov/)]
+
+---
+
+# Key Features of Open Data
++ Availability and access
 + Reuse and redistribution
 --
 
+
+[![img-center-85](images/data_world.png)](https://data.world/)
+.caption[[data.world](https://data.world/)]
+
+---
+
+# Key Features of Open Data
++ Availability and access
++ Reuse and redistribution
 + Universal participation
+--
+
+
+![img-center-85](images/csv.png)
 
 ---
 
@@ -176,31 +197,28 @@ name:open-data
 # Benefits of Open Data
 + Transparency
 + Releasing social and commercial value
-
 --
 
-![img-center-60](images/embark-ios.jpg)
+[![img-center-80](images/accuweather.jpg)](https://www.accuweather.com/)
+.caption[[AccuWeather](https://www.accuweather.com/)]
+
 ---
 
 # Benefits of Open Data
 + Transparency
 + Releasing social and commercial value
 
-![img](images/solarlist.jpg)
+[![img-center-43](images/phones.png)](https://transitapp.com/)
+.caption[[TransitApp.com](https://transitapp.com/)]
+
 ---
 
 # Benefits of Open Data
 + Transparency
 + Releasing social and commercial value
 
-![img-center-60](images/healthy_out.jpg)
----
-
-# Benefits of Open Data
-+ Transparency
-+ Releasing social and commercial value
-
-![img-center-30](images/childcaredesk.png)
+[![img-center-80](images/yelp.jpg)](https://www.npr.org/sections/thesalt/2015/03/27/395622262/did-that-restaurant-pass-its-health-inspection-now-yelp-will-tell-you)
+.caption[Source: [NPR](https://www.npr.org/sections/thesalt/2015/03/27/395622262/did-that-restaurant-pass-its-health-inspection-now-yelp-will-tell-you)]
 
 ---
 
@@ -211,41 +229,88 @@ name:open-data
 --
 
 
-![img-center-100](images/voting_information_project.png)
+[![img-center-100](images/voting_information_project.png)](https://www.votinginfoproject.org/)
+.caption[[Voting Information Project](https://www.votinginfoproject.org/)]
 
----
-exclude:true
-# Keeping NYC Accountable on Parking Tickets
-
-![img-center-100](images/nyc_parking_ticket.jpg)
-.caption[Image Credit: Parking Violator by [Atomische * Tom Giebel](https://www.flickr.com/photos/atomische/2299948817/), [CC BY-NC-ND 2.0 ](https://creativecommons.org/licenses/by-nc-nd/2.0/)]
-
-<!-- .caption[Image Credit: Charleston Parking Ticket by [Charleston's The Digitel](https://www.flickr.com/photos/29456235@N04/5396359471), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)] -->
-
-Source: http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new
 
 ---
 
-exclude: true
-# New Yorkers Save Millions In Parking Tickets
-
-![img-center-70](images/sidewalk-parking.jpg)
-.caption[Image Credit: [Ken Lund](https://www.flickr.com/photos/kenlund/7236966946), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)]
-
-[Learn more](http://iquantny.tumblr.com/post/144197004989/the-nypd-was-systematically-ticketing-legally)
-
----
+class:center,middle
 
 # Open Data Concerns
+
+---
+
+# Privacy
 --
 
-+ Privacy ([PII](https://en.wikipedia.org/wiki/Personally_identifiable_information) and [the Mosaic Effect](https://gcn.com/articles/2014/05/14/fose-mosaic-effect.aspx))
++ Personally identifiable information (PII)
+--
+
+[![img-center-70](images/mugshot.png)](https://www.wired.com/2013/07/mugshot-removal-extortion/)
+.caption[Source: [Wired Magazine](https://www.wired.com/2013/07/mugshot-removal-extortion/)]
+
+---
+
+# Privacy
++ Personally identifiable information (PII)
+
+[![img-center-75](images/gawker.png)](http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546)
+.caption[Source: [Gawker](http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546)]
+
+---
+
+# Privacy
++ Personally identifiable information (PII)
+
+[![img-center-90](images/cab_muslims.png)](https://web.archive.org/web/20150318175539/http://theiii.org/index.php/997/using-nyc-taxi-data-to-identify-muslim-taxi-drivers/)
+.caption[Source: [The Interdisciplinary Internet Institute](https://web.archive.org/web/20150318175539/http://theiii.org/index.php/997/using-nyc-taxi-data-to-identify-muslim-taxi-drivers/)]
+
+---
+
+# Privacy
++ Personally identifiable information (PII)
++ [Mosaic Effect](https://fcw.com/articles/2014/05/13/fose-mosaic.aspx)
+--
+
+
+![img-center-100](images/govex_privacy_matrix.png)
+.caption[The Center for Government Excellence's [Privacy Matrix](https://govex.jhu.edu/wiki/privacy_matrix/)]
+
+---
+
+# Reliability
 --
 
 + Accuracy
 --
 
-+ Security
+[![img-center-45](images/aus_fire_app.png)](https://www.timberbiz.com.au/fire-app-sync-reality/)
+
+.caption[Source: [TimberBiz](https://www.timberbiz.com.au/fire-app-sync-reality/)]
+
+---
+
+# Reliability
++ Accuracy
++ Timeliness
+--
+
+[![img-center-90](images/noaa_cdc.png)](https://www.ncdc.noaa.gov/cdo-web/)
+
+.caption[[NOAA National Climatic Data Center](https://www.ncdc.noaa.gov/cdo-web/)]
+
+---
+
+# Security
+--
+
++ Identify sensitive infrastructure
+--
+
+
+[![img-center-90](images/open_sewer_atlas.png)](http://openseweratlas.tumblr.com/map)
+.caption[[Open Sewer Atlas](http://openseweratlas.tumblr.com/map)]
 
 ---
 
